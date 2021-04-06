@@ -7,7 +7,9 @@ const  KosmoTimeTaskCard = () => {
       <div>
         <button>再生アイコン</button>
         <div>
-          <span>砂時計アイコン</span>
+          <span className="material-icons">
+            hourglass_top
+          </span>
           <span>00:00:00</span>
         </div>
       </div>
