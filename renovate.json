@@ -2,7 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "baseBranches": ["develop"],
+  "baseBranches": ["main"],
   "timezone": "Asia/Tokyo",
   "schedule": "every weekend",
   "packageRules": [
