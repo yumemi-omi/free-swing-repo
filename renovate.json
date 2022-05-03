@@ -1,7 +1,4 @@
 {
-  "extends": [
-    "config:base"
-  ],
   "baseBranches": ["main"],
   "timezone": "Asia/Tokyo",
   "schedule": "every weekend",
@@ -10,5 +7,8 @@
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     }
-  ]
+  ],
+  "minor": {
+    "groupName": "all dependencies"
+  }
 }
